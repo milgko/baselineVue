@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="app-container container mx-auto p-4">
+  <div class="app-container mx-auto p-4">
     <Navbar />
     <router-view />
   </div>
@@ -17,7 +17,7 @@ export default {
 
 <style>
 .app-container {
-  max-width: 2400px;
+  
   margin: auto;
 }
 </style>
